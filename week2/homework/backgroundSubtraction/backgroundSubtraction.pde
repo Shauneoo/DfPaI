@@ -20,6 +20,12 @@ void draw() {
       loadPixels();
       
       // set the pixels here!
+      //for (int i=0; i < pixels.length; i++) {
+        
+      //}
+      
+      //gives background to take begin checking diffrence
+      image(background, 0, 0);
       
       updatePixels();
       

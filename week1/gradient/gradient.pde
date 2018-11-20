@@ -12,8 +12,7 @@ void draw() {
 }
 
 void genGradient() {
-  
-  for(int i=0; i<pixels.length; i++) {
+  for (int i=0; i<pixels.length; i++) {
     //gradient step
     float step = map(i, 0, pixels.length, 0, 1);
     
@@ -22,5 +21,5 @@ void genGradient() {
     
     //apply color to pixels
     pixels[i] = gColor;
-  }
+  }  
 }
