@@ -1,9 +1,9 @@
 boolean mouseDown = false;
 
-Ball[] balls = new Ball[15];
+Ball[] balls = new Ball[30];
 
 void setup() {
-  size(720, 720);
+  size(1280, 720);
   noStroke();
 
   for (int i = 0; i < balls.length; i++) {
